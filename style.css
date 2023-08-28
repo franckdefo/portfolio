@@ -260,6 +260,10 @@ header{
     margin-bottom: 4rem;
 }
 
+.detail .detail_R{
+    opacity: 0.5;
+}
+
 /*============ PROJETS============*/
 #projet{
     background-color: var(--color-noir);
@@ -622,6 +626,9 @@ hr{
         
         background-color: var(--color-blanc);
     }
+    .nav_logo h3{
+        font-size: 1.5rem;
+    }
 
     /*--------header--------*/
     header{
@@ -645,12 +652,34 @@ hr{
         background-color: #000000;
         overflow: hidden;
     }
+    .text_profil h1{
+        font-size: 50px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .button .btn-contact{
+        text-align: center;
+    }
+    .button .cv{
+        text-align: center;
+    }
+
+    .reference{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
     /*---------section 1------*/
     .partenaires h3{
         font-size: 1rem;
         opacity: 0.5;
     }
+
+    
     
     /*------section 2-------*/
     .service_container h2{
@@ -724,4 +753,10 @@ hr{
         gap: 2rem;
         margin-bottom: 4rem;
     }
+    .details_contact{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
 }

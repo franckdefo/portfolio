@@ -71,3 +71,29 @@
 .card_projetss{
     margin-top: 2rem;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .section1_container .grand_titre{
+        font-size: 50px;
+    }
+    .role{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .leprojet{
+        display: flex;
+        flex-direction: column;
+    }
+    .etape_section{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
